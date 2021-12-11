@@ -10,9 +10,8 @@ from sklearn.preprocessing import OneHotEncoder
 #2. 
 import _task1 as _task1
 import _task2 as _task2 
+import _task3 as _task3
 from ydata_quality import DataQuality
-
-
 
 
 # ==================================================================
@@ -37,5 +36,13 @@ _task2.defineDataTypesFunc()
 
 
 
+
+# ==================================================================
+
+
+# ==================================================================
+
+#	3.	Integrimi, agregimi, mostrimi, pastrimi, identifikimi dhe strategjia e trajtimit për vlerat e zbrazëta.
+_task3.ini_task3()
 
 # ==================================================================

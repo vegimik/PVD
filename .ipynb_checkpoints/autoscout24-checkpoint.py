@@ -4,35 +4,45 @@ import helper_functions as hf
 
 # Importing the class called SimpleImputer from impute model in sklearn
 from sklearn.impute import SimpleImputer
-
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
-
-    
-
-dataset = hf.readDataset()
-
-print(dataset.isnull().sum())
-
-# Take a look at the first few rows
-print(dataset.head())
+#2. 
+import _task1 as _task1
+import _task2 as _task2 
+import _task3 as _task3
+from ydata_quality import DataQuality
 
 
+# ==================================================================
 
-print(dataset['mileage'])
-print(dataset['mileage'].isnull())
-print(dataset['mileage'].isnull().head())
+#	1.	Para-procesimi për pregaditjen e të dhënave për analizë
+
+# Define Data Types for dataset
+_task1.preProcessingOfData()
 
 
-#header tbl:  mileage(analysed before), make,   model,  fuel,  gear, offerType,  price,   hp,  year
-print(
-    dataset['make'].isnull().head(),
-    dataset['model'].isnull().head(),
-    dataset['fuel'].isnull().head(),
-    dataset['gear'].isnull().head(),
-    dataset['offerType'].isnull().head(),
-    dataset['price'].isnull().head(),
-    dataset['hp'].isnull().head(),
-    dataset['year'].isnull().head(),
-)
+
+
+# ==================================================================
+
+
+# ==================================================================
+
+#	2. Mbledhja e të dhënave, definimi i tipeve të të dhënave,kualiteti i të dhënave.
+
+# Define Data Types for dataset
+_task2.defineDataTypesFunc()
+
+
+
+
+# ==================================================================
+
+
+# ==================================================================
+
+#	3.	Integrimi, agregimi, mostrimi, pastrimi, identifikimi dhe strategjia e trajtimit për vlerat e zbrazëta.
+_task3.ini_task3()
+
+# ==================================================================
