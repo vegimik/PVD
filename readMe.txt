@@ -30,6 +30,9 @@
 - [Email](mailto:vegim.karacica@studentet.uni-pr.edu "Hi!")
 - [Website](https://vegimkaraqica.ml "Welcome")
 
+**Qendrim Demiraj**
+- [Profile](https://github.com/Qendrimii "Qendrim Demiraj")
+
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
