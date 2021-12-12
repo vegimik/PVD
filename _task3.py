@@ -10,7 +10,7 @@ plt.style.use('fivethirtyeight')
 #%matplotlib inline
 
 # Driver method
-def ini_task3():
+def init_task3():
     integrationAndaggregationFunc()
     sampleCleaningIdentifyingStrategies()
 

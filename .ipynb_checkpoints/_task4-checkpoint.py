@@ -6,7 +6,7 @@ import helper_functions as hf
 #conda install arcpy=2.9 -c esri
 #import arcpy
 
-def init_task4():
+def inti_task4():
     reductionAndSubset()
     uniformedApproximationAndProjection()
     
