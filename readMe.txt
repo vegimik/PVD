@@ -1,8 +1,37 @@
-1.	Para-procesimi për pregaditjen e të dhënave për analizë.
+<h1 align="center">Përgatitja dhe vizualizimi i të dhënave</h1>
 
-2.	Mbledhja e të dhënave, definimi i tipeve të të dhënave,kualiteti i të dhënave.
+<h3 align="center">Germany Cars Dataset(Dataset scraped from AutoScout24 with information about new and used cars.)</h3>
+<ol>
+<li>Para-procesimi për pregaditjen e të dhënave për analizë.</li>
+<li>Mbledhja e të dhënave, definimi i tipeve të të dhënave,kualiteti i të dhënave.</li>
+<li>Integrimi, agregimi, mostrimi, pastrimi, identifikimi dhe strategjia e trajtimit për vlerat e zbrazëta.</li>
+<li>Reduktimi i dimensionit, zgjedhja e nënbashkësisë së vetive, krijimi i vetive, diskretizimi dhe binarizimi, transformimi.</li>
+</ol>
 
-3.	Integrimi, agregimi, mostrimi, pastrimi, identifikimi dhe strategjia e trajtimit për vlerat e zbrazëta.
+## Links
 
-4.	Reduktimi i dimensionit, zgjedhja e nënbashkësisë së vetive, krijimi i vetive,
-diskretizimi dhe binarizimi, transformimi.
+- [Repo](https://github.com/vegimik/PVD PVD)
+
+## Screenshots
+
+![PVD](/ai_assignment/1.png "PVD")
+
+## Built With
+
+- C#
+
+## Future Updates
+
+- [ ] Reliable Storage
+
+## Author
+**Vegim Karaçica**
+- [Profile](https://github.com/vegimik "Vegim Karaçica")
+- [Email](mailto:vegim.karacica@studentet.uni-pr.edu "Hi!")
+- [Website](https://vegimkaraqica.ml "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
