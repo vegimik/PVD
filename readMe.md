@@ -6,6 +6,9 @@
 <li>Mbledhja e të dhënave, definimi i tipeve të të dhënave,kualiteti i të dhënave.</li>
 <li>Integrimi, agregimi, mostrimi, pastrimi, identifikimi dhe strategjia e trajtimit për vlerat e zbrazëta.</li>
 <li>Reduktimi i dimensionit, zgjedhja e nënbashkësisë së vetive, krijimi i vetive, diskretizimi dhe binarizimi, transformimi.</li>
+<li>Detektimi i përjashtuesit.</li>
+<li>Mënjanimi i zbulimeve jo të sakta.</li>
+<li>Eksplorimi i të dhënave: statistika përmbledhëse, multivariante.</li>
 </ol>
 
 ## Links
@@ -18,7 +21,7 @@
 
 ## Built With
 
-- C#
+- Jupiter NoteBook & Python
 
 ## Future Updates
 
