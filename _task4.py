@@ -3,6 +3,10 @@ import numpy as np
 import _task1 as _task1
 import time
 import helper_functions as hf
+from pandas import read_csv
+from pandas.plotting import scatter_matrix
+from matplotlib import pyplot
+from sklearn.preprocessing import KBinsDiscretizer
 
 def reductionAndSubset():
     ### READ IN THE 3 DATA SETS ###
@@ -12,8 +16,7 @@ def reductionAndSubset():
     print(dataset.shape)
     print("Dataset type usage description:")
     print(dataset.describe(exclude='number'))
-    
-reductionAndSubset()
+
 
 #Uniform Manifold Approximation and Projection (UMAP)
 def uniformedApproximationAndProjection():
@@ -63,4 +66,14 @@ def discretionOfDataset():
     dataset = trans.fit_transform(dataset)
     print(dataset)
 
-discretionOfDataset()
+
+
+def init_Task4():
+    reductionAndSubset()
+    uniformedApproximationAndProjection()
+    getOnlySomeColumnsFromDataSet()
+    discretionOfDataset()
+
+
+
+init_Task4()
